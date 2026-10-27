@@ -68,6 +68,40 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: "BazarDor (বাজার দর) - Essential Commodity Market Tracker",
+    category: "fullstack",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Better Auth", "daisyUI"],
+    description:
+      "A comprehensive market price tracking web application that allows users across Bangladesh to monitor real-time daily commodity prices, fluctuations, and category trends.",
+    features: [
+      "Live scrolling market price ticker displaying real-time commodity movements",
+      "Dynamic price increase and decrease trend tracking for essential commodities",
+      "Category-based product directory (Rice, Lentils, Oil, Vegetables, Fish & Meat)",
+      "User authentication powered by Better Auth with MongoDB integration",
+    ],
+    demoUrl: "https://bazar-dor.vercel.app",
+    githubUrl: "https://github.com/sabbirckc/bazar-dor",
+    imageBg: "from-emerald-600/30 via-teal-950/40 to-black",
+    status: "completed",
+  },
+  {
+    title: "FitLog - Workout Library & Routine Planner",
+    category: "frontend",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "DaisyUI", "Lucide", "LocalStorage"],
+    description:
+      "A responsive fitness application and workout library that helps users discover exercises, track targeted muscle groups, and curate personalized daily workout plans.",
+    features: [
+      "Comprehensive workout library with muscle groups, equipment, duration, and calories",
+      "Interactive workout detail view with sets, reps, difficulty levels, and step-by-step instructions",
+      "Today's Workout Plan builder with instant exercise scheduling",
+      "Saved favorites system persisted across sessions using LocalStorage",
+    ],
+    demoUrl: "https://github.com/sabbirckc/fit-log",
+    githubUrl: "https://github.com/sabbirckc/fit-log",
+    imageBg: "from-cyan-600/30 via-blue-950/40 to-black",
+    status: "completed",
+  },
+  {
     title: "DevPulse - Developer Community & Knowledge Hub",
     category: "fullstack",
     tech: ["Next.js 15", "TypeScript", "Tailwind CSS", "MongoDB", "Server Actions"],
@@ -98,24 +132,7 @@ const projectsData: Project[] = [
     ],
     demoUrl: "https://github.com/sabbirckc",
     githubUrl: "https://github.com/sabbirckc",
-    imageBg: "from-emerald-600/30 via-teal-950/40 to-black",
-    status: "completed",
-  },
-  {
-    title: "TaskFlow - Real-Time Collaborative Kanban Board",
-    category: "frontend",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Lucide", "Local State"],
-    description:
-      "A sleek drag-and-drop task management tool designed to boost personal and team productivity with priority levels, deadlines, and activity logs.",
-    features: [
-      "Smooth drag-and-drop task migration between progress stages",
-      "Customizable tags, task priority flags, and due-date countdowns",
-      "Persisted state with offline-first support and rapid search filter",
-      "High-contrast dark mode tailored for deep-work focus",
-    ],
-    demoUrl: "https://github.com/sabbirckc",
-    githubUrl: "https://github.com/sabbirckc",
-    imageBg: "from-purple-600/30 via-violet-950/40 to-black",
+    imageBg: "from-amber-600/30 via-orange-950/40 to-black",
     status: "completed",
   },
   {
@@ -130,8 +147,8 @@ const projectsData: Project[] = [
       "Interactive technical proficiency meters and category filtering",
       "Fully accessible semantic structure with optimal Core Web Vitals",
     ],
-    demoUrl: "https://github.com/sabbirckc",
-    githubUrl: "https://github.com/sabbirckc",
+    demoUrl: "https://my-portfolio-seven-black-35.vercel.app",
+    githubUrl: "https://github.com/sabbirckc/my-portfolio",
     imageBg: "from-neutral-700/40 via-zinc-900/60 to-black",
     status: "completed",
   },
